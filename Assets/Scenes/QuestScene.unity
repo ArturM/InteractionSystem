@@ -160,9 +160,13 @@ MonoBehaviour:
   - name: Quest pierwszy
     description: Zbierz 3 czerwone kostki
     reward: 100
+    started: 0
+    completed: 0
   - name: Quest drugi
     description: Zbierz 5 niebieskich kulek
     reward: 200
+    started: 0
+    completed: 0
 --- !u!65 &428512634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -195,7 +199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8830c15bdf80f1a43832e0348a6090ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
