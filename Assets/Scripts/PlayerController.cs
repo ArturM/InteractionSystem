@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("W,S - przód/tył, A,S - obrót lewo/prawo, E - interact");
+        //Debug.Log("W,S - przód/tył, A,S - obrót lewo/prawo, E - interact");
     }
     void Update()
     {
